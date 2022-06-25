@@ -1,0 +1,7 @@
+// If ORANGE pixel found (Mob healthbar top)
+IF FindPixel(254,119,59,637,4,590,124);
+//Key(SPACE)
+PressKey(32);
+Delay(750);
+ReleaseKey(32);
+ENDIF;

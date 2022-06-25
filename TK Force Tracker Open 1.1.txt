@@ -1,0 +1,17 @@
+// Find purple pixel inside face-image.
+IF FindPixel(126,76,150,16,221,8,17);
+
+//Click open-arrow
+PushLeftButton(77,241);
+Delay(100);
+PullLeftButton(0,0);
+
+// Extra delay if conditions found.
+Delay(2000)
+
+ENDIF;
+
+// Delay for whole script.
+Delay(5000);
+
+ENDIF;
